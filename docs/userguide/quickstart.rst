@@ -85,7 +85,7 @@ The following example demonstrates a minimum configuration
        version = "0.0.1"
        dependencies = [
            "requests",
-           'importlib-metadata; python_version<"3.8"',
+           'importlib-metadata; python_version < "3.8"',
        ]
 
     See :doc:`/userguide/pyproject_config` for more information.
@@ -116,7 +116,7 @@ The following example demonstrates a minimum configuration
             version='0.0.1',
             install_requires=[
                 'requests',
-                'importlib-metadata; python_version == "3.8"',
+                'importlib-metadata; python_version < "3.8"',
             ],
         )
 
